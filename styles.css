@@ -1,0 +1,12 @@
+.test {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120%;
+}
+
+@media only screen and (min-width: 1080px) {
+    .test {
+      width: 50%;
+    }
+  }
