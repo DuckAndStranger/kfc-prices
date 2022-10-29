@@ -5,8 +5,18 @@
     width: 120%;
 }
 
+.qr {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 @media only screen and (min-width: 1080px) {
-    .test {
-      width: 50%;
-    }
+  .test {
+    width: 50%;
   }
+  .qr {
+    width: 0%;
+  }
+}
